@@ -1,7 +1,8 @@
 const express = require("express");
+const connectToDB = require("./config/dbcon");
 
 const app = express();
-
+connectToDB();
 app.use(express.json({ extended: false }));
 
 const PORT = process.env.PORT || 3000;
