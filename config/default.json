@@ -1,4 +1,4 @@
 {
-  "dbURI": "mongodb+srv://chinedu:chinedu@userreg-pqyqx.mongodb.net/test?retryWrites=true&w=majority",
+  "dbURI": "",
   "jwtSecret": "userSecret"
 }
